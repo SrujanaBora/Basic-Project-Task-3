@@ -1,0 +1,60 @@
+
+Loading MNIST Data...
+
+Loading Training Data...
+
+Loading Testing Data...
+
+Preparing Classifier Training and Validation Data...
+
+Random Forest Classifier with n_estimators = 100, n_jobs = 10
+
+Pickling the Classifier for Future Use...
+
+Calculating Accuracy of trained Classifier...
+
+RFC Trained Classifier Confidence: 0.9685
+
+Making Predictions on Validation Data...
+
+Calculating Accuracy of Predictions...
+
+Accuracy of Classifier on Validation Image Data: 0.9685
+
+Predicted Values: [7 0 4 ... 0 0 1]
+
+Creating Confusion Matrix...
+
+Confusion Matrix:
+ [[625   0   1   0   0   0   3   0   4   0]
+ [  0 674   0   5   1   0   0   4   1   0]
+ [  2   1 541   3   0   2   2   4   0   1]
+ [  2   0   6 572   0   3   0   5   6   3]
+ [  1   3   2   1 559   0   4   0   2  12]
+ [  3   0   3   8   0 505   1   2   1   2]
+ [  8   1   2   0   0   3 583   0   4   0]
+ [  1   3   4   0   4   0   0 618   0   5]
+ [  1   2   3   8   2   0   3   1 545   4]
+ [  2   2   0   4   8   0   1   5   4 589]]
+
+Making Predictions on Test Input Images...
+
+Calculating Accuracy of Trained Classifier on Test Data...
+
+Accuracy of Classifier on Test Images: 0.9695
+
+Predicted Labels for Test Images: [7 2 1 ... 4 5 6]
+
+Creating Confusion Matrix for Test Data...
+
+Confusion Matrix for Test Data:
+ [[ 969    0    1    0    0    2    3    1    4    0]
+ [   0 1124    2    2    0    2    3    0    1    1]
+ [   5    0  999    7    3    0    4    8    5    1]
+ [   1    0    8  974    0    7    0    9    7    4]
+ [   0    0    1    0  956    0    6    0    2   17]
+ [   3    0    0   12    2  861    4    3    6    1]
+ [   5    3    0    0    3    5  938    0    4    0]
+ [   1    4   22    2    3    0    0  985    3    8]
+ [   4    0    7    9    3    5    4    4  927   11]
+ [   6    5    2   12   10    2    1    5    4  962]]
